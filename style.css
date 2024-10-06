@@ -1,0 +1,104 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333; /* Changed font color for better readability */
+    background: #f0f0f0; /* Changed background color to a lighter shade */
+}
+
+.login {
+    position: relative;
+    margin: 50px auto; /* Increased margin for better centering */
+    padding: 30px;
+    width: 300px;
+    border: solid thin #ccc; /* Changed border color to a lighter shade */
+    background: #fff; /* Changed background to white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a slight box shadow for depth */
+}
+
+.login h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login p {
+    margin-bottom: 15px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #bec1c0; /* Changed button background color */
+    color: #181616; /* Changed button text color to white */
+    border: none;
+}
+
+.button:hover {
+    background-color: #ccd0ce; /* Darkened button color on hover */
+}
+
+.box {
+    position: relative;
+    margin: 50px auto; /* Increased margin for better centering */
+    padding: 30px;
+    width: 800px; /* Adjusted width for a larger box */
+    border: solid thin #ccc; /* Changed border color to a lighter shade */
+    background: #fff; /* Changed background to white */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added a slight box shadow for depth */
+}
+
+.box h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box p {
+    margin-bottom: 15px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row; /* Ensure options are in a row */
+    justify-content: space-between;
+    margin-bottom: 10px;  /* Added margin between options */
+}
+
+.option label {
+    flex-grow: 1;
+    margin-right: 10px; /* Added margin between labels */
+    display: flex; /* Use flex layout for the label */
+    align-items: center; /* Align radio buttons vertically centered with text */
+    font-size: 16px; /* Increased font size for better visibility */
+    color: #555; /* Changed font color for better readability */
+}
+
+.option input[type="radio"] {
+    margin-right: 10px; /* Space between radio button and label */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.buttons .button {
+    width: auto;
+    flex-grow: 1;
+    margin: 0 10px; /* Space between buttons */
+    text-align: center;
+}
